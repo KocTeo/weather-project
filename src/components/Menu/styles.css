@@ -1,0 +1,49 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu-title {
+  display: flex;
+  align-items: center;
+}
+
+.menu-title h1 {
+  font-size: 70px;
+  font-weight: 400;
+}
+
+.menu-title img {
+  width: 70px;
+  height: 50px;
+  position: relative;
+  top: -30px;
+}
+
+.menu-links {
+  display: flex;
+  gap: 80px;
+}
+
+.menu-link {
+  width: 185px;
+  text-align: center;
+
+  font-size: 30px;
+  font-weight: 300;
+  cursor: pointer;
+
+  transition: 0.3s;
+
+  &:hover {
+    color: #0e8494;
+  }
+}
+
+.menu-links .selected {
+  font-weight: 700;
+  border-bottom: 2px solid #695d5d;
+
+  transition: 0.3s;
+}
